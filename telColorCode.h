@@ -1,5 +1,5 @@
-#include <iostream>
-#include <assert.h>
+#ifndef TELCOLORCODE
+#define TELCOLORCODE
 using namespace std;
 namespace TelCoColorCoder
 {
@@ -46,3 +46,4 @@ namespace TelCoColorCoder
         return major * numberOfMinorColors + minor + 1;
     }
 }
+#endif

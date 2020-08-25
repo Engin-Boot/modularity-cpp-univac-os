@@ -1,3 +1,5 @@
+#include<iostream>
+#include<assert.h>
 #include "telColorCode.h"
 
 void testNumberToPair(int pairNumber,
