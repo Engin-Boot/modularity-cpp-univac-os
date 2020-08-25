@@ -6,7 +6,7 @@ void testNumberToPair(int pairNumber,
 {
     TelCoColorCoder::ColorPair colorPair =
         TelCoColorCoder::GetColorFromPairNumber(pairNumber);
-    std::cout << "Got pair " << colorPair.ToString() << std::endl;
+    cout << "Got pair " << colorPair.ToString() << endl;
     assert(colorPair.getMajor() == expectedMajor);
     assert(colorPair.getMinor() == expectedMinor);
 }
@@ -17,7 +17,7 @@ void testPairToNumber(
     int expectedPairNumber)
 {
     int pairNumber = TelCoColorCoder::GetPairNumberFromColor(major, minor);
-    std::cout << "Got pair number " << pairNumber << std::endl;
+    cout << "Got pair number " << pairNumber << endl;
     assert(pairNumber == expectedPairNumber);
 }
 
