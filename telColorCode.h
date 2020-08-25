@@ -1,6 +1,6 @@
-#include <iostream>
-#include <assert.h>
-
+#ifndef TELCOLORCODE
+#define TELCOLORCODE
+using namespace std;
 namespace TelCoColorCoder
 {
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
@@ -26,8 +26,8 @@ namespace TelCoColorCoder
             MinorColor getMinor() {
                 return minorColor;
             }
-            std::string ToString() {
-                std::string colorPairStr = MajorColorNames[majorColor];
+            string ToString() {
+                string colorPairStr = MajorColorNames[majorColor];
                 colorPairStr += " ";
                 colorPairStr += MinorColorNames[minorColor];
                 return colorPairStr;
@@ -46,3 +46,4 @@ namespace TelCoColorCoder
         return major * numberOfMinorColors + minor + 1;
     }
 }
+#endif
