@@ -3,7 +3,7 @@
 #include "OtherFun.h"
 
 using namespace std;
-
+using namespace TelCocolorCoder
 //defination
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
