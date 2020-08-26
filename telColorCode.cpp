@@ -1,5 +1,5 @@
 #include "telColorCode.h"
-
+using namespace TelCocolorCoder
 //defination
 class  TelCocolorCoder:: ColorPair
 {
