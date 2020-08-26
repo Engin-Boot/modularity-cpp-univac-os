@@ -1,6 +1,5 @@
 #include<iostream>
 #include<assert.h>
-#include "telColorCode.h"
 #include "OtherFun.h"
 using namespace std;
 
