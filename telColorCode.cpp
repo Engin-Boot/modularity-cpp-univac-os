@@ -1,5 +1,6 @@
 #include "telColorCode.h"
 
+//defination
 class  TelCocolorCoder:: ColorPair
 {
         private:
