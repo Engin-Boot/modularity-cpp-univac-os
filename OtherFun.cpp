@@ -1,7 +1,10 @@
 #include<iostream>
-#include<assest.h>
+#include<assert.h>
 #include "TelColorCode.h"
+#include "OtherFun.h"
+using namespace std;
 
+//defination
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
     TelCoColorCoder::MinorColor expectedMinor)
