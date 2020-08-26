@@ -1,5 +1,3 @@
-ifndef OTHERFUN
-#define OTHERFUN
 
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
@@ -9,5 +7,3 @@ void testPairToNumber(
     TelCoColorCoder::MajorColor major,
     TelCoColorCoder::MinorColor minor,
     int expectedPairNumber);
-
-#endif
