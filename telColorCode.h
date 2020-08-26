@@ -1,6 +1,5 @@
-#ifndef TELCOLORCODE
-#define TELCOLORCODE
-using namespace std;
+
+//declaration
 namespace TelCoColorCoder
 {
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
@@ -17,4 +16,3 @@ namespace TelCoColorCoder
     ColorPair GetColorFromPairNumber(int pairNumber); 
     int GetPairNumberFromColor(MajorColor major, MinorColor minor); 
 }
-#endif
