@@ -12,27 +12,7 @@ namespace TelCoColorCoder
     const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
     int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
-    class ColorPair {
-        private:
-            MajorColor majorColor;
-            MinorColor minorColor;
-        public:
-            ColorPair(MajorColor major, MinorColor minor):
-                majorColor(major), minorColor(minor)
-            {}
-            MajorColor getMajor() {
-                return majorColor;
-            }
-            MinorColor getMinor() {
-                return minorColor;
-            }
-            string ToString() {
-                string colorPairStr = MajorColorNames[majorColor];
-                colorPairStr += " ";
-                colorPairStr += MinorColorNames[minorColor];
-                return colorPairStr;
-            }
-    };
+    class ColorPair;
 
     ColorPair GetColorFromPairNumber(int pairNumber); 
     int GetPairNumberFromColor(MajorColor major, MinorColor minor); 
