@@ -1,5 +1,5 @@
-ifndef OTHERFILE
-#define OTHERFILE
+ifndef OTHERFun
+#define OTHERFun
 
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
