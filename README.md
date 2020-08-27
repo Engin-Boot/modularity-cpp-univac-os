@@ -28,3 +28,11 @@ per file. See the workflow for details.
 The color coding needs to be printed as a reference manual for the concerned telecom personnel.
 Provide a ToString() function in the code that would return the mapping which can be printed as a manual.
 Also resolve any coding guideline violations.
+
+#### workflow
+
+addColor.h has the color declaration 
+telColorCode.h has declaration of class pair and telColorCode.cpp definition
+getColor.h declaration of fun to get color and getColor.cpp definition
+TestPair.h declaration of fun to test and print manual and TestPair.cpp definition
+main.cpp
