@@ -16,10 +16,11 @@ string Manual_print(int numberOfMajorColors, int numberOfMinorColors){
    	        pairNumber++;
 	    }
     }
-	string print=print(pairs,pairs.size());
+	string print=getvector(pairs,pairs.size());
+	return print;
 }	//adding all pairs  
 
-string print(vector<string> pairs,int size){
+string getvector(vector<string> pairs,int size){
 	string all="";
 	for (int i = 0; i < size; i++) {
             all += pairs[i];
