@@ -1,4 +1,5 @@
 #include "telColorCode.h"
+using namespace std;
 //declaration
 namespace TelCoColorCoder
 {
@@ -12,5 +13,5 @@ namespace TelCoColorCoder
 
     int GetPairNumberFromColor(MajorColor major, MinorColor minor);
 
-    std::string ToString();
+    string ToString();
 }
