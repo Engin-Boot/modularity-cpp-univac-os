@@ -1,4 +1,4 @@
-#include "pairclass.h"
+#include "telColorCode.h"
 #include<string.h>
 //defination of class
 namespace TelCoColorCoder {
