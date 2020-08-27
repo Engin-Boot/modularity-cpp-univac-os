@@ -1,5 +1,6 @@
 #include "telColorCode.h"
 #include<string.h>
+using namespace std;
 //defination of class
 namespace TelCoColorCoder {
      
@@ -9,8 +10,8 @@ namespace TelCoColorCoder {
     MinorColor ColorPair::getMinor() {
         return minorColor;
     }
-    std::string ColorPair::ToString() {
-        std::string colorPairStr = MajorColorNames[majorColor];
+    string ColorPair::ToString() {
+        string colorPairStr = MajorColorNames[majorColor];
         colorPairStr += " ";
         colorPairStr += MinorColorNames[minorColor];
         return colorPairStr;
