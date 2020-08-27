@@ -16,7 +16,7 @@ void Manual_pairing(int numberOfMajorColors, int numberOfMinorColors){
    	        pairNumber++;
 	    }
     }
-	mauual_print(pairs);
+	manual_print(pairs);
 }	//adding all pairs  
 string Manual_print(vector<string> pairs){
 	string all="";
