@@ -2,5 +2,5 @@
 #include "TestPair.h"
 #include<string.h>
 
-string Manual_print(vector<string> pairs,int size);
-void Manual_pairing(int numberOfMajorColors, int numberOfMinorColors);	  
+string getvector(vector<string> pairs,int size);
+string Manual_print(int numberOfMajorColors, int numberOfMinorColors);	  
