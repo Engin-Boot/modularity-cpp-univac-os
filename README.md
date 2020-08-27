@@ -34,5 +34,6 @@ Also resolve any coding guideline violations.
 addColor.h has the color declaration 
 telColorCode.h has declaration of class pair and telColorCode.cpp definition
 getColor.h declaration of fun to get color and getColor.cpp definition
-TestPair.h declaration of fun to test and print manual and TestPair.cpp definition
-main.cpp
+TestPair.h declaration of fun to test and TestPair.cpp definition
+Manual.h decalration and fun to print and manual.cpp defination
+main.cpp is consumer code
