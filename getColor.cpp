@@ -32,7 +32,7 @@ namespace TelCoColorCoder
         
         for (int pairNumber = 1; pairNumber <= 25; pairNumber++) {
             ColorPair colorPair = GetColorFromPairNumber(pairNumber);
-            colorCodingStr += sto_string(pairNumber) + "\t\t" + colorPair.ToString() + "\n\n";
+            colorCodingStr += to_string(pairNumber) + "\t\t" + colorPair.ToString() + "\n\n";
         }
         
         return colorCodingStr;
