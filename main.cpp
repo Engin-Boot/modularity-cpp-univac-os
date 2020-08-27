@@ -1,5 +1,6 @@
 #include <iostream>
 #include <assert.h>
+#include<bits/stdc++.h>
 
 #include "TestPair.h"
 string Manual_print(int numberOfMajorColors, int numberOfMinorColors){
