@@ -2,7 +2,7 @@
 #include "TestPair.h"
 #include<string.h>
 
-string Manual_print(int numberOfMajorColors, int numberOfMinorColors){
+void Manual_pairing(int numberOfMajorColors, int numberOfMinorColors){
 	int out=0, in=0, pairNumber = 1;
 	vector<string> pairs;
 	string all ="";
@@ -16,7 +16,9 @@ string Manual_print(int numberOfMajorColors, int numberOfMinorColors){
         	pairs.push_back("\n");
    	        pairNumber++;
 	    }
-    }  //adding all pairs  
+    }
+}	//adding all pairs  
+string Manual_print(vector<string> pair){
 	for (int i = 0; i < pairs.size(); i++) {
             all += pairs[i];
 	}
