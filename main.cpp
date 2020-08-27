@@ -9,6 +9,8 @@ int main() {
 
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
-
+    
+    cout<<Manual_print(TelCoColorCoder::numberOfMajorColors, TelCoColorCoder::numberOfMinorColors);
+    
     return 0;
 }
