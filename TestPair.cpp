@@ -1,6 +1,6 @@
 #include<assert.h>
 #include<iostream>
-using namespace.std;
+using namespace std;
 #include "TestPair.h"
 //defination
 void testNumberToPair(int pairNumber,
